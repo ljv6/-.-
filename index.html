@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>سورة الكهف</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: "Noto Naskh Arabic", "Amiri", "Scheherazade", serif;
+      background: #faf9f7;
+      color: #222;
+      line-height: 2.2;
+    }
+    .page {
+      max-width: 900px;
+      margin: 24px auto 56px;
+      padding: 24px;
+      background: #fff;
+      border-radius: 14px;
+      box-shadow: 0 8px 30px rgba(0,0,0,.06);
+    }
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    h1 {
+      margin: 0 0 6px;
+      font-size: 28px;
+      letter-spacing: .5px;
+    }
+    .meta {
+      font-size: 14px;
+      color: #666;
+    }
+    .bismillah {
+      text-align: center;
+      margin: 26px 0 10px;
+      font-size: 20px;
+      color: #555;
+    }
+    .surah {
+      font-size: 20px;
+      text-align: justify;
+      text-justify: inter-word;
+      counter-reset: ayah;
+      white-space: pre-wrap;
+    }
+    /* آية */
+    .a {
+      display: inline;
+      position: relative;
+      padding-inline-end: .5em;
+    }
+    .a::after {
+      counter-increment: ayah;
+      content: " ﴿" counter(ayah) "﴾";
+      font-size: .8em;
+      vertical-align: baseline;
+      opacity: .7;
+      padding-inline-start: .35em;
+    }
+    .note {
+      background: #fffbec;
+      border: 1px solid #f1e3a5;
+      padding: 10px 12px;
+      border-radius: 10px;
+      font-size: 14px;
+      color: #6a5d2e;
+      margin: 14px 0 0;
+    }
+    footer {
+      margin-top: 28px;
+      text-align: center;
+      font-size: 12px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <main class="page" role="main">
+    <header>
+      <h1>سورة الكهف</h1>
+      <div class="meta">مكية • عدد الآيات: 110</div>
+    </header>
+
+    <div class="bismillah">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</div>
+
+    <section class="surah" aria-label="نص سورة الكهف">
+      <!-- ألصِق كل آية بين span class="a" كما هو موضح أدناه -->
+      <!-- مثال تنسيق:
+      <span class="a">الْحَمْدُ لِلَّهِ الَّذِي أَنْزَلَ عَلَىٰ عَبْدِهِ الْكِتَابَ وَلَمْ يَجْعَلْ لَهُ عِوَجًا</span>
+      <span class="a">قَيِّمًا لِيُنْذِرَ بَأْسًا شَدِيدًا مِنْ لَدُنْهُ وَيُبَشِّرَ الْمُؤْمِنِينَ الَّذِينَ يَعْمَلُونَ الصَّالِحَاتِ أَنَّ لَهُمْ أَجْرًا حَسَنًا</span>
+      ... إلى آخر السورة (110 آية)
+      -->
+    </section>
+
+    <div class="note" role="note">
+      ملاحظة: للحفاظ على دقة الرسم العثماني، يُفضّل نسخ النص من مصدر موثوق بخط مصحفي (Uthmani) ثم لصقه بين الوسوم أعلاه. إن رغبت، أزوّدك بالملف جاهزًا ومرفوعًا مباشرة.
+    </div>
+
+    <footer>
+      تم الإعداد لأغراض العرض والقراءة.
+    </footer>
+  </main>
+</body>
+</html>
